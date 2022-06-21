@@ -14,6 +14,7 @@
 		0E2F675828620D5E008CB0EA /* FetchDataApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F675728620D5E008CB0EA /* FetchDataApiTests.swift */; };
 		0E2F676228620D5E008CB0EA /* FetchDataApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F676128620D5E008CB0EA /* FetchDataApiUITests.swift */; };
 		0E2F676428620D5E008CB0EA /* FetchDataApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F676328620D5E008CB0EA /* FetchDataApiUITestsLaunchTests.swift */; };
+		0E2F677128620E5D008CB0EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F677028620E5D008CB0EA /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0E2F675D28620D5E008CB0EA /* FetchDataApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchDataApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2F676128620D5E008CB0EA /* FetchDataApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataApiUITests.swift; sourceTree = "<group>"; };
 		0E2F676328620D5E008CB0EA /* FetchDataApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E2F677028620E5D008CB0EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0E2F674828620D5A008CB0EA /* ContentView.swift */,
 				0E2F674A28620D5D008CB0EA /* Assets.xcassets */,
 				0E2F674C28620D5D008CB0EA /* Preview Content */,
+				0E2F677028620E5D008CB0EA /* Model.swift */,
 			);
 			path = FetchDataApi;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2F677128620E5D008CB0EA /* Model.swift in Sources */,
 				0E2F674928620D5A008CB0EA /* ContentView.swift in Sources */,
 				0E2F674728620D5A008CB0EA /* FetchDataApiApp.swift in Sources */,
 			);

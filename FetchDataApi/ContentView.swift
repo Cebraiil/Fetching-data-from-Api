@@ -2,15 +2,30 @@
 //  ContentView.swift
 //  FetchDataApi
 //
-//  Created by Developer Light on 21.06.2022.
+//  by Developer Light on 21.06.2022.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var comments = [Comments]()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(comments) { comment in
+                Text(comment.name)
+                Text(comment.body)
+            }
+            .onAppear {
+                apiCall().getUserComments {(comments) in
+                    self.comments = comments
+                }
+            }
+            .navigationTitle("Comments")
+            .listStyle(.grouped)
+            
+        }
     }
 }
 
